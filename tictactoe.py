@@ -1,12 +1,12 @@
 class TicTacToe():
   """ TicTacToe game for a NxN matrix.
-  	  Crosses are represented by 1
-	  Nuts are represented by 0
+      Crosses are represented by 1
+      Nuts are represented by 0
   """
 
   def __init__(self, n):
     """ Accepts the size of the matrix.
-		Initializes the matrix.
+        Initializes the matrix.
 	"""
     self.CROSS = 1
     self.NUTS = 0
